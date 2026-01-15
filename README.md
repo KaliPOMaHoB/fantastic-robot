@@ -3,19 +3,21 @@ A fantastic bot for market analysis.
 
 This bot analyzes historical market patterns to predict profits, buy/sell signals, and identifies top traders. It includes stocks like AAPL and GOOGL, and cryptocurrencies like BTC, ETH, XRP, XLM, SOL, ADA, DOT, LINK, AVAX. The ultimate trader's toolkit with news, risk management, and portfolio tracking.
 
-## Setup
+## Deployment
 
-1. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+To share the app via a link:
 
-2. Run the web dashboard:
-   ```
-   streamlit run app.py
-   ```
+1. Go to [Streamlit Cloud](https://share.streamlit.io/).
+2. Connect your GitHub account.
+3. Select this repository (`fantastic-robot`).
+4. Set the main file path to `app.py`.
+5. Deploy!
 
-Note: All features are mocked for demo purposes. No real API keys required.
+Once deployed, you'll get a shareable link like `https://share.streamlit.io/username/repo-name/main/app.py`.
+
+You can email this link to others.
+
+Note: The app is fully functional with mocks; no API keys needed.
 
 ## ⚠️ Important Warnings
 
@@ -27,7 +29,9 @@ Note: All features are mocked for demo purposes. No real API keys required.
 
 If you proceed, you accept these risks.
 
-## Features
+## Trading Strategy
+
+For a clear, step-by-step trading strategy using this app, see [STRATEGY.md](STRATEGY.md). It includes setup, analysis, risk management, and execution guidelines.
 
 - Fetches historical data using yfinance
 - Analyzes patterns with technical indicators (RSI, MACD, SMA)
@@ -45,6 +49,10 @@ If you proceed, you accept these risks.
 - **Watchlist** for tracking favorite symbols
 - **Portfolio Management** with account overview
 - **Error Handling** for robust operation
+
+## Trading Strategy
+
+For a clear, step-by-step trading strategy using this app, see [STRATEGY.md](STRATEGY.md). It includes setup, analysis, risk management, and execution guidelines.
 
 ## Monetization Ideas
 
