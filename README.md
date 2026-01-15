@@ -62,6 +62,12 @@ For a clear, step-by-step trading strategy using this app, see [STRATEGY.md](STR
 - Add ads or sponsored content
 - Earn commissions from trades via Alpaca or other brokers
 
-## Disclaimer
+## Deployment
 
-This is for educational purposes only. Not financial advice. Trading involves risk.
+To deploy the app:
+
+- **Streamlit Cloud**: Push to GitHub, then deploy on share.streamlit.io.
+- **Heroku**: Use a Procfile with `web: streamlit run app.py --server.port $PORT`.
+- **Local**: Run `streamlit run app.py`.
+
+For production, set real API keys in config.py.
